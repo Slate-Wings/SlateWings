@@ -34,6 +34,5 @@ export default defineConfig({
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 
-  // https://vitejs.dev/config/
-  base: '/SlateWings/', // Mind the leading and trailing slashes!
+  base: '/'
 })
